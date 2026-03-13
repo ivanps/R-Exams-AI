@@ -39,7 +39,7 @@ de Monterrey.
 ###+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Lee lista de alumnos
-alumnos <- read.xlsx("ListaClase.xlsx", sheet="Lista")
+alumnos <- read.xlsx("IN2032_2026/ListaClase.xlsx", sheet="Lista")
 filename <- "Examenes.tex"
 set.seed(101)
 
@@ -64,7 +64,7 @@ for (i in 1:NSTUDENT) {
 \\begin{enumerate}", file = filename, sep = "\n", append = TRUE)
 
   #------------------------------------------------------------------------------
-  source("BaseExercises.R")
+  source("IN2032_2026/BaseExercises.R")
   cat(lproblems[[exers$p1[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
   cat(lproblems[[exers$p3[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
   cat(lproblems[[exers$p6[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
