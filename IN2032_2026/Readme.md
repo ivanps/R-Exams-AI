@@ -1,1 +1,1 @@
-# How to generate the Algorithmic AE 2026
+# How to generate the Argumentative Exam
