@@ -40,7 +40,7 @@ de Monterrey.
 
 # Lee lista de alumnos
 alumnos <- read.xlsx("IN2032_2026/ListaClase.xlsx", sheet="Lista")
-filename <- "Examenes.tex"
+filename <- "IN2032_2026/Examenes.tex"
 set.seed(101)
 
 # Select problems at random by difficulty level
@@ -65,6 +65,7 @@ for (i in 1:NSTUDENT) {
 
   #------------------------------------------------------------------------------
   source("IN2032_2026/BaseExercises.R")
+  # ERROR!!! USE "i" INSTEAD OF "NSTUDENT"
   cat(lproblems[[exers$p1[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
   cat(lproblems[[exers$p3[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
   cat(lproblems[[exers$p6[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
