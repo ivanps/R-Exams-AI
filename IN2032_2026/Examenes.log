@@ -1,61 +1,62 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.10)  12 MAR 2026 22:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.5.14)  18 MAR 2026 13:00
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./Examenes.tex
 (Examenes.tex
-LaTeX2e <2020-10-01> patch level 4
-L3 programming layer <2021-02-18> xparse <2020-03-03>
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count179
-\c@chapter=\count180
-\c@section=\count181
-\c@subsection=\count182
-\c@subsubsection=\count183
-\c@paragraph=\count184
-\c@subparagraph=\count185
-\c@figure=\count186
-\c@table=\count187
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count187
+\c@chapter=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx
-.sty
-Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.s
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
 ty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks15
-)
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics
-.sty
-Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
 )
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\grap
-hics.cfg
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 105.
+Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdft
-ex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
 )
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backe
-nd-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count188
-\l__pdf_internal_box=\box47
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count196
+\l__pdf_internal_box=\box51
 )
 
 LaTeX Warning: Unused global option(s):
@@ -79,27 +80,31 @@ LaTeX Font Info:    ... okay on input line 12.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
 LaTeX Font Info:    ... okay on input line 12.
 
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-
-pdf.mkii
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count189
-\scratchdimen=\dimen141
-\scratchbox=\box48
-\nofMPsegments=\count190
-\nofMParguments=\count191
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count192
-\MPscratchDim=\dimen142
-\MPnumerator=\count193
-\makeMPintoPDFobject=\count194
-\everyMPtoPDFconversion=\toks17
+\scratchcounter=\count197
+\scratchdimen=\dimen143
+\scratchbox=\box52
+\nofMPsegments=\count198
+\nofMParguments=\count199
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen144
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
+\everyMPtoPDFconversion=\toks19
 )
-(C:\Users\Dr. Pacheco\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epst
-opdf-base.sty
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-)
+
+(C:\Users\L01032102\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-s
+ys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 18.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -109,465 +114,478 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
-<Xbar_R_Paper.png, id=1, 346.896pt x 231.264pt>
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 41.
+<Xbar_S_Paper.png, id=1, 346.896pt x 231.264pt>
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 41.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 53.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 <IMR_Paper.png, id=3, 346.896pt x 231.264pt>
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 54.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 73.
+Package pdftex.def Info: IMR_Paper.png  used on input line 72.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [1
 
-{C:/Users/Dr. Pacheco/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Xbar_R_
-Paper.png> <./IMR_Paper.png>]
-<Xbar_S_Paper.png, id=14, 346.896pt x 231.264pt>
+{C:/Users/L01032102/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Xbar_S
+_Paper.png>]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 105.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 104.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
- [2 <./Xbar_S_Paper.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 126--131
+ [2 <./IMR_Paper.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--130
 
  []
 
+<Xbar_R_Paper.png, id=17, 346.896pt x 231.264pt>
 File: Xbar_R_Paper.png Graphic file (type png)
 <use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 149.
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 148.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 162.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 181.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[3]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 213.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 160.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 179.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+[3 <./Xbar_R_Paper.png>]
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 211.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [4]
-Underfull \hbox (badness 10000) in paragraph at lines 234--239
+Underfull \hbox (badness 10000) in paragraph at lines 232--237
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 257.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 270.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 289.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[5]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 321.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 255.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 268.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 287.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+[5]
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 319.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [6]
-Underfull \hbox (badness 10000) in paragraph at lines 342--347
+Underfull \hbox (badness 10000) in paragraph at lines 340--345
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 365.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 363.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 375.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 378.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 397.
+Package pdftex.def Info: IMR_Paper.png  used on input line 394.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [7]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 429.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 426.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 450--455
+Underfull \hbox (badness 10000) in paragraph at lines 447--452
 
  []
 
 File: Xbar_R_Paper.png Graphic file (type png)
 <use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 473.
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 470.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 482.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 486.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 505.
+Package pdftex.def Info: IMR_Paper.png  used on input line 501.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [9]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 537.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 533.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 558--563
+Underfull \hbox (badness 10000) in paragraph at lines 554--559
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 581.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 577.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 589.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 594.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 613.
+Package pdftex.def Info: IMR_Paper.png  used on input line 608.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [11]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 645.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 640.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 666--671
+Underfull \hbox (badness 10000) in paragraph at lines 661--666
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 689.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 684.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 702.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 696.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 721.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 715.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [13]
-File: Xbar_S_Paper.png Graphic file (type png)
-<use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 753.
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 747.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [14]
-Underfull \hbox (badness 10000) in paragraph at lines 774--779
+Underfull \hbox (badness 10000) in paragraph at lines 768--773
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 797.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 791.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 810.
+Package pdftex.def Info: IMR_Paper.png  used on input line 804.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 829.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 823.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [15]
-File: Xbar_S_Paper.png Graphic file (type png)
-<use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 861.
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 855.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 882--887
+Underfull \hbox (badness 10000) in paragraph at lines 876--881
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 905.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 918.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 937.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[17]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 969.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 899.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 912.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 931.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+[17]
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 963.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [18]
-Underfull \hbox (badness 10000) in paragraph at lines 990--995
+Underfull \hbox (badness 10000) in paragraph at lines 984--989
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1013.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1007.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1019.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1026.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1045.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1038.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [19]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1077.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1070.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [20]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1091--1096
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1121.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1134.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1114.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1153.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[21]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1185.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1126.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1145.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[21]
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1177.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [22]
-Underfull \hbox (badness 10000) in paragraph at lines 1206--1211
+Underfull \hbox (badness 10000) in paragraph at lines 1198--1203
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1229.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1221.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1233.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1242.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1261.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1252.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [23]
-File: Xbar_S_Paper.png Graphic file (type png)
-<use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1293.
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1284.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [24]
-Underfull \hbox (badness 10000) in paragraph at lines 1314--1319
+Underfull \hbox (badness 10000) in paragraph at lines 1305--1310
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1337.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1328.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1350.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1341.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1369.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1360.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [25]
-File: Xbar_S_Paper.png Graphic file (type png)
-<use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1401.
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1392.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [26]
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1427
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1418
 
  []
 
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 1436.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 1449.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 1468.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[27]
 File: Xbar_R_Paper.png Graphic file (type png)
 <use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1445.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1458.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1477.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[27]
-File: Xbar_S_Paper.png Graphic file (type png)
-<use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1509.
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1500.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [28]
-Underfull \hbox (badness 10000) in paragraph at lines 1530--1535
+Underfull \hbox (badness 10000) in paragraph at lines 1521--1526
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1553.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1544.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1556.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1566.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1585.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1575.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [29]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1617.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1607.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [30]
-Underfull \hbox (badness 10000) in paragraph at lines 1638--1643
+Underfull \hbox (badness 10000) in paragraph at lines 1628--1633
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1661.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1651.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1674.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1664.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1693.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1683.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [31]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1725.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1715.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [32]
-Underfull \hbox (badness 10000) in paragraph at lines 1746--1751
+Underfull \hbox (badness 10000) in paragraph at lines 1736--1741
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1769.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 1759.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1782.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1772.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1801.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[33]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1833.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1791.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33]
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1823.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [34]
-Underfull \hbox (badness 10000) in paragraph at lines 1854--1859
+Underfull \hbox (badness 10000) in paragraph at lines 1844--1849
 
  []
 
 File: Xbar_R_Paper.png Graphic file (type png)
 <use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1877.
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1867.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1890.
+Package pdftex.def Info: IMR_Paper.png  used on input line 1880.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1909.
+File: Xbar_S_Paper.png Graphic file (type png)
+<use Xbar_S_Paper.png>
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1899.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [35]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1941.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1931.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [36]
-Underfull \hbox (badness 10000) in paragraph at lines 1962--1967
+Underfull \hbox (badness 10000) in paragraph at lines 1952--1957
 
  []
 
-File: Xbar_R_Paper.png Graphic file (type png)
-<use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 1985.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 1998.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-File: IMR_Paper.png Graphic file (type png)
-<use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 2017.
-(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
-[37]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 2049.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 1975.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 1988.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+File: IMR_Paper.png Graphic file (type png)
+<use IMR_Paper.png>
+Package pdftex.def Info: IMR_Paper.png  used on input line 2007.
+(pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
+[37]
+File: Xbar_R_Paper.png Graphic file (type png)
+<use Xbar_R_Paper.png>
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 2039.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
  [38]
-Underfull \hbox (badness 10000) in paragraph at lines 2070--2075
+Underfull \hbox (badness 10000) in paragraph at lines 2060--2065
 
  []
 
 File: Xbar_R_Paper.png Graphic file (type png)
 <use Xbar_R_Paper.png>
-Package pdftex.def Info: Xbar_R_Paper.png  used on input line 2093.
+Package pdftex.def Info: Xbar_R_Paper.png  used on input line 2083.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 2106.
+Package pdftex.def Info: IMR_Paper.png  used on input line 2096.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 File: IMR_Paper.png Graphic file (type png)
 <use IMR_Paper.png>
-Package pdftex.def Info: IMR_Paper.png  used on input line 2125.
+Package pdftex.def Info: IMR_Paper.png  used on input line 2115.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
 [39]
 File: Xbar_S_Paper.png Graphic file (type png)
 <use Xbar_S_Paper.png>
-Package pdftex.def Info: Xbar_S_Paper.png  used on input line 2157.
+Package pdftex.def Info: Xbar_S_Paper.png  used on input line 2147.
 (pdftex.def)             Requested size: 242.10439pt x 161.40376pt.
- [40] (Examenes.aux) ) 
+ [40] (Examenes.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 1205 strings out of 479334
- 18731 string characters out of 2854196
- 309810 words of memory out of 3000000
- 18705 multiletter control sequences out of 15000+200000
- 403738 words of font info for 28 fonts, out of 3000000 for 9000
+ 1322 strings out of 474486
+ 22380 string characters out of 5741867
+ 1933542 words of memory out of 5000000
+ 23655 multiletter control sequences out of 15000+600000
+ 558377 words of font info for 37 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,7n,74p,201b,295s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Dr. Pacheco/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Dr. Pacheco/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Dr. Pacheco/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Dr.
- Pacheco/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pf
-b>
-Output written on Examenes.pdf (40 pages, 168762 bytes).
+ 57i,7n,65p,201b,307s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/L01032102/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb><C:/Users/L01032102/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi10.pfb><C:/Users/L01032102/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/L01032102/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Examenes.pdf (40 pages, 172101 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -42,6 +42,7 @@ de Monterrey.
 alumnos <- read.xlsx("IN2032_2026/ListaClase.xlsx", sheet="Lista")
 filename <- "IN2032_2026/Examenes.tex"
 set.seed(101)
+#set.seed(67)
 
 # Select problems at random by difficulty level
 NSTUDENT <- nrow(alumnos)
@@ -65,14 +66,14 @@ for (i in 1:NSTUDENT) {
 
   #------------------------------------------------------------------------------
   source("IN2032_2026/BaseExercises.R")
-  # ERROR!!! USE "i" INSTEAD OF "NSTUDENT"
-  cat(lproblems[[exers$p1[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p3[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p6[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p4[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p5[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p2[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
-  cat(lproblems[[exers$p7[NSTUDENT]]], file = filename, sep = "\n", append = TRUE)
+  #i <- NSTUDENT # ERROR IN GENERATING PROBLEMS. USED FIXED VALUE
+  cat(lproblems[[exers$p1[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p3[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p6[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p4[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p5[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p2[i]]], file = filename, sep = "\n", append = TRUE)
+  cat(lproblems[[exers$p7[i]]], file = filename, sep = "\n", append = TRUE)
   #------------------------------------------------------------------------------
   
   cat("
