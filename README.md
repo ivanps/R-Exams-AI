@@ -18,9 +18,13 @@ El flujo de trabajo para la generación de evaluaciones requiere seguir los sigu
 
 ### 2. Generación de ejercicios asistida por IA
 En lugar de programar los Procesos de Generación de Datos (DGP) manualmente, se emplean modelos de lenguaje para estructurar la lógica matemática y las variables aleatorias. En el directorio `Mi_DGP_Quiz\template_preguntas` se encuentra un archivo de ejemplo para preguntas de opción múltiple y de respuesta numérica. 
-* Copie el bloque de instrucciones (Prompt de IA) incluido en este repositorio y anexe el problema o temática específica que desea evaluar.
-* El modelo generará un archivo con extensión `.Rmd` (R Markdown) que contendrá el código R para las variables aleatorias y la notación matemática en formato RMarkdown y LaTeX.
-* Guarde el archivo `.Rmd` resultante dentro de su directorio `Mi_DGP_Quiz\banco_preguntas`.
+* Modifique el siguiente prompt de IA para adaptarlo a su problema o temática específica:
+```text
+Actúa como experto en Diseño Instruccional STEM y programador avanzado en el paquete R/exams desarrollado por Achim Zeileis. Utiliza los archivos adjuntos q_num.Rmd y q_schoice.Rmd como plantillas obligatorias. Genera exactamente 5 ejercicios independientes en formato R Markdown (.Rmd) sobre Control Estadístico de la Calidad (específicamente gráficos de Shewhart, cálculo de límites de control, fracción defectuosa y capacidad real/potencial del proceso Cp/Cpk). Diseña los problemas en los niveles cognitivos de Aplicar y Analizar de la Taxonomía de Bloom, privilegiando situaciones que requieran interpretación, razonamiento estadístico y toma de decisiones basadas en datos, evitando preguntas de simple memorización. Dos ejercicios deben ser de respuesta numérica (extype: num) y tres de opción múltiple con una sola respuesta correcta (extype: schoice). Respeta estrictamente la estructura, formato, sintaxis y estilo de los archivos de referencia. Entrega los resultados como 5 archivos .Rmd descargables, uno por ejercicio.
+```
+
+* Ejecute el prompt en un modelo de lenguaje generativo (como ChatGPT) para obtener los archivos .Rmd que contienen el ejercicio, el código R y el formato RMarkdown.
+* Guarde los archivos `.Rmd` dentro de su directorio `Mi_DGP_Quiz\banco_preguntas`.
 
 ### 3. Configuración de la evaluación
 Abra el script de configuración de R correspondiente al formato de salida deseado (Canvas, PDF o HTML) y modifique los siguientes parámetros:
