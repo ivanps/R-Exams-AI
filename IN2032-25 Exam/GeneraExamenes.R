@@ -6,8 +6,8 @@ library(dplyr)
 rdunif <- function(n, min, max) { round(runif(n, min, max), digits = 0)}
 
 # Lee lista de alumnos
-alumnos <- read.xlsx("IN2032_2025/ListaClase.xlsx")
-filename <- "IN2032_2025/Examenes.tex"
+alumnos <- read.xlsx("ListaClase.xlsx")
+filename <- "Examenes.tex"
 set.seed(101)
 
 ###############################################################################
