@@ -1,0 +1,40 @@
+```{r data generation, echo = FALSE, results = "hide"}
+n <- 10
+p <- 0.30
+x <- 4
+
+correct <- round(dbinom(x, size = n, prob = p), 4)
+
+opt2 <- round(pbinom(x, size = n, prob = p), 4)       # P(X ≤ 4)
+opt3 <- round(1 - pbinom(x - 1, n, p), 4)            # P(X ≥ 4)
+opt4 <- round(dbinom(x + 1, n, p), 4)                # P(X = 5)
+opt5 <- round(pbinom(x - 1, n, p), 4)                # P(X ≤ 3)
+opt6 <- round(1 - pbinom(x, n, p), 4)                # P(X > 4)
+```
+
+Question
+========
+
+A quality-control inspector examines 10 products. Each product has a probability of 0.30 of being defective, independently of the others.
+
+Let $X$ denote the number of defective products.
+
+What is the probability that **exactly 4 products are defective**?
+
+Answerlist
+----------
+
+* `r sprintf("%.4f", correct)`
+* `r sprintf("%.4f", opt2)`
+* `r sprintf("%.4f", opt3)`
+* `r sprintf("%.4f", opt4)`
+* `r sprintf("%.4f", opt5)`
+* `r sprintf("%.4f", opt6)`
+
+Meta-information
+================
+
+exname: Binomial probability exact value
+extype: schoice
+exsolution: 100000
+exshuffle: 4

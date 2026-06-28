@@ -1,0 +1,45 @@
+```{r data generation, echo = FALSE, results = "hide"}
+n <- sample(20:50, 1)
+xbar <- sample(60:90, 1)
+s <- sample(5:15, 1)
+
+se <- s / sqrt(n)
+```
+
+Question
+========
+
+A random sample of size $n=`r n`$ was obtained from a population. The sample mean was $\bar{x}=`r xbar`$ and the sample standard deviation was $s=`r s`$.
+
+Compute the standard error of the sample mean using
+
+$$
+SE(\bar{x})=\frac{s}{\sqrt{n}}.
+$$
+
+Round your answer to two decimal places.
+
+Solution
+========
+
+Using
+
+$$
+SE(\bar{x})=\frac{s}{\sqrt{n}},
+$$
+
+we obtain
+
+$$
+SE(\bar{x})=
+\frac{`r s`}{\sqrt{`r n`}}
+=
+`r round(se,2)`.
+$$
+
+Meta-information
+================
+
+extype: num
+exsolution: `r round(se,2)`
+extol: 0.01

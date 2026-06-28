@@ -1,0 +1,81 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Parameters
+n <- sample(8:20, 1)
+p <- sample(seq(0.10, 0.60, by = 0.05), 1)
+x <- sample(1:(n-1), 1)
+
+# Correct answer
+correct <- round(dbinom(x, size = n, prob = p), 4)
+
+# Plausible distractors
+opt2 <- round(pbinom(x, size = n, prob = p), 4)     # P(X ≤ x)
+opt3 <- round(1 - pbinom(x - 1, n, p), 4)           # P(X ≥ x)
+opt4 <- round(dbinom(max(0, x - 1), n, p), 4)       # P(X = x-1)
+opt5 <- round(dbinom(min(n, x + 1), n, p), 4)       # P(X = x+1)
+opt6 <- round(1 - pbinom(x, n, p), 4)               # P(X > x)
+
+options <- c(correct, opt2, opt3, opt4, opt5, opt6)
+
+# Avoid duplicated options
+while(length(unique(options)) < 6){
+  n <- sample(8:20, 1)
+  p <- sample(seq(0.10, 0.60, by = 0.05), 1)
+  x <- sample(1:(n-1), 1)
+
+  correct <- round(dbinom(x, size = n, prob = p), 4)
+  opt2 <- round(pbinom(x, size = n, prob = p), 4)
+  opt3 <- round(1 - pbinom(x - 1, n, p), 4)
+  opt4 <- round(dbinom(max(0, x - 1), n, p), 4)
+  opt5 <- round(dbinom(min(n, x + 1), n, p), 4)
+  opt6 <- round(1 - pbinom(x, n, p), 4)
+
+  options <- c(correct, opt2, opt3, opt4, opt5, opt6)
+}
+```
+
+Question
+========
+
+A production process generates defective items with probability $p=`r p`$ independently from one item to another. Suppose that $n=`r n`$ items are inspected and let $X$ denote the number of defective items. What is the probability that **exactly $`r x`$ items are defective**?
+
+Answerlist
+----------
+
+* `r sprintf("%.4f", correct)`
+* `r sprintf("%.4f", opt2)`
+* `r sprintf("%.4f", opt3)`
+* `r sprintf("%.4f", opt4)`
+* `r sprintf("%.4f", opt5)`
+* `r sprintf("%.4f", opt6)`
+
+Solution
+========
+
+Since $X \sim Bin(n=`r n`, p=`r p`)$, the probability of observing exactly $`r x`$ defective items is
+
+$$
+P(X=`r x`)
+=
+\binom{`r n`}{`r x`}
+(`r p`)^{`r x`}
+(1-`r p`)^{`r n - x`}.
+$$
+
+Substituting the values,
+
+$$
+P(X=`r x`)
+=
+\binom{`r n`}{`r x`}
+(`r p`)^{`r x`}
+(1-`r p`)^{`r n - x`}
+=
+`r sprintf("%.4f", correct)`.
+$$
+
+Meta-information
+================
+exname: Binomial probability
+extype: schoice
+exsolution: 100000
+exshuffle: 4

@@ -1,0 +1,57 @@
+```{r data generation, echo = FALSE, results = "hide"}
+mu <- sample(seq(50, 80, 5), 1)
+sigma <- sample(c(5, 8, 10), 1)
+x0 <- round(mu + sample(c(-1.5,-1,-0.5,0.5,1,1.5),1)*sigma,1)
+
+sol <- round(pnorm(x0, mean = mu, sd = sigma), 4)
+```
+
+Question
+========
+
+The following figure shows a normal distribution with mean $\mu=`r mu`$ and standard deviation $\sigma=`r sigma`$. The shaded region represents $P(X \le `r x0`)$ for a normally distributed random variable $X$.    
+```{r plot, echo=FALSE, fig.height=3.5, fig.width=3.5, fig.cap=""}
+x <- seq(mu - 4*sigma, mu + 4*sigma, length = 1000)
+y <- dnorm(x, mu, sigma)
+
+plot(x, y, type = "l", lwd = 2,
+     xlab = "X", ylab = "Density")
+
+xs <- x[x <= x0]
+ys <- dnorm(xs, mu, sigma)
+
+polygon(c(min(xs), xs, max(xs)),
+        c(0, ys, 0),
+        col = "lightblue",
+        border = NA)
+
+abline(v = x0, lty = 2)
+```
+
+Compute the probability represented by the shaded area. Round your answer to four decimal places.
+
+Solution
+========
+
+The required probability is
+
+$$
+P(X \le `r x0`)
+=
+\Phi\left(
+\frac{`r x0`-`r mu`}{`r sigma`}
+\right).
+$$
+
+The corresponding probability is
+
+$$
+P(X \le `r x0`) = `r sol`.
+$$
+
+Meta-information
+================
+
+extype: num
+exsolution: `r sol`
+extol: 0.0001

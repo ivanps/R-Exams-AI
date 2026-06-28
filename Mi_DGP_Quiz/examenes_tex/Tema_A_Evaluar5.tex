@@ -1,0 +1,49 @@
+\documentclass[11pt]{article}
+\parindent=0in
+\textwidth=6.7in 
+\textheight=9.5in
+\setlength{\oddsidemargin}{-0.10in}
+\setlength{\evensidemargin}{-0.10in}
+\setlength{\topmargin}{-0.8in}
+\setlength{\unitlength}{0.5in}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\newcommand{\pandocbounded}[1]{#1}
+% Agregar esto al preámbulo de tu master_template.tex
+\newenvironment{answerlist}%
+  {\renewcommand{\labelenumii}{(\alph{enumii})}\begin{enumerate}}%
+  {\end{enumerate}}
+
+% --- THE MASTER SWITCH TO HIDE SOLUTIONS ---
+\usepackage{comment}
+\excludecomment{solution} % Tells LaTeX to ignore the solution blocks entirely
+
+% --- Setup for the exams package ---
+\newcommand{\exinput}[1]{\input{#1}}
+\newenvironment{question}{\item }{} % Formats the questions nicely in your numbered list
+
+\begin{document}
+
+\begin{center}
+\large \textbf{An\'alisis Estad\'istico de Datos} \\
+\large Examen Argumentativo
+\end{center}
+
+Nombre: \underline{\hspace*{3in}} \quad Matr\'icula:\underline{\hspace*{2in}} \\
+
+\noindent \textbf{Instrucciones:} Muestra c\'omo obtienes tu respuesta. Puedes usar Excel 
+o Minitab para tus cálculos de probabilidades o 
+percentiles, pero no uses otros archivos o hagas uso de la IA. Respeta el 
+c\'odigo de \'etica del curso y del Tecnol\'ogico 
+de Monterrey.
+
+\begin{enumerate}
+\input{exercise1}
+\input{exercise2}
+\input{exercise3}
+\end{enumerate}
+
+\end{document}
