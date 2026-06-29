@@ -1,0 +1,24 @@
+```{r data generation, echo = FALSE, results = "hide"}
+n <- sample(4:6,1)
+xbarbar <- sample(seq(50,80,1),1)
+Rbar <- sample(seq(4,10,0.5),1)
+A2 <- c("2"=1.880,"3"=1.023,"4"=0.729,"5"=0.577,"6"=0.483)[as.character(n)]
+UCL <- round(xbarbar + A2*Rbar,2)
+```
+Question
+========
+
+A Shewhart $\bar X$ chart is used with subgroup size $n=`r n`$. The process has $\bar{\bar X}=`r xbarbar`$ and $\bar R=`r Rbar`$.
+
+Calculate the upper control limit (UCL) of the chart.
+
+Solution
+========
+
+$UCL=\bar{\bar X}+A_2\bar R=`r UCL`$.
+
+Meta-information
+================
+extype: num
+exsolution: `r UCL`
+extol: 0.05

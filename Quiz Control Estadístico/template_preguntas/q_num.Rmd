@@ -1,0 +1,27 @@
+```{r data generation, echo = FALSE, results = "hide"}
+# Generate random parameters
+mu <- sample(100:150, 1)
+sigma <- sample(5:15, 1)
+x <- mu + sample(5:20, 1)
+
+# Calculate solution
+prob <- pnorm(x, mean = mu, sd = sigma)
+sol <- round(prob, 4)
+```
+Question
+========
+
+A manufacturing process produces components whose weights are normally distributed with a mean of $\mu =  `r mu`$ grams and a standard deviation of $\sigma = `r sigma`$ grams.
+
+What is the probability that a randomly selected component weighs less than $x = `r x`$ grams?
+
+Solution
+========
+
+We need to find $P(X < `r x`)$.Using the normal distribution function, the probability is approximately $`r sol`$.
+
+Meta-information
+================
+extype: num
+exsolution: `r sol`
+extol: 0.005

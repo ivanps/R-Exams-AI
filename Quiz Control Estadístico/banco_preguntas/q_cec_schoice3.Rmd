@@ -1,0 +1,29 @@
+```{r data generation, echo = FALSE, results = "hide"}
+Cp <- sample(seq(1.2,2.0,0.1),1)
+Cpk <- round(Cp - sample(seq(0.2,0.6,0.1),1),1)
+```
+Question
+========
+
+A process has $C_p=`r Cp`$ and $C_{pk}=`r Cpk`$.
+
+Which conclusion is most appropriate?
+
+Answerlist
+----------
+
+* The process spread is adequate, but the process is not perfectly centered.
+* The process is perfectly centered between specifications.
+* The process is out of statistical control.
+* The specification limits are wider than the process spread because $C_{pk}>C_p$.
+
+Solution
+========
+
+When $C_{pk}<C_p$, the process has potential capability but is shifted away from the target or center.
+
+Meta-information
+================
+extype: schoice
+exsolution: 1000
+exshuffle: 4

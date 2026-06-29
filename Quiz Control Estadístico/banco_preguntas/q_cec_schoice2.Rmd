@@ -1,0 +1,30 @@
+```{r data generation, echo = FALSE, results = "hide"}
+n <- sample(c(100,150,200),1)
+d <- sample(12:30,1)
+p <- round(d/n,3)
+```
+Question
+========
+
+In an inspection of `r n` units, `r d` defective units were found. The fraction defective is $p=`r p`$.
+
+Which interpretation is correct?
+
+Answerlist
+----------
+
+* Approximately `r round(100*p,1)`% of the inspected units were defective.
+* Exactly `r round(100*(1-p),1)`% of future units will be conforming.
+* The process is automatically in statistical control.
+* The process capability index equals `r p`.
+
+Solution
+========
+
+The fraction defective is the proportion of defective items in the inspected sample.
+
+Meta-information
+================
+extype: schoice
+exsolution: 1000
+exshuffle: 4

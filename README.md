@@ -28,21 +28,24 @@ Dos ejercicios deben ser de respuesta numérica (extype: num) y tres de opción 
 Respeta estrictamente la estructura, formato, sintaxis y estilo de los archivos de referencia. 
 Entrega los resultados como 5 archivos .Rmd descargables, uno por ejercicio.
 ```
-
 * Ejecute el prompt en un modelo de lenguaje generativo (como ChatGPT) para obtener los archivos .Rmd que contienen el ejercicio, el código R y el formato RMarkdown.
 * Guarde los archivos `.Rmd` dentro de su directorio `Mi_DGP_Quiz\banco_preguntas`.
+
+*Nota: Los ejercicios generados con este prompt en ChatGPT se guardaron en el directorio `Quiz Control Estadístico\banco_preguntas`.*
 
 ### 3. Configuración de la evaluación
 Abra el script de configuración de R correspondiente al formato de salida deseado (Canvas, PDF o HTML) y modifique los siguientes parámetros:
 * Especifique el número de copias o versiones únicas requeridas.
 * Borre los archivos `.Rmd` que no desee incluir en la evaluación. Recuerde que el script inclye automáticamente todos los archivos `.Rmd` presentes en el directorio `banco_preguntas`.
-* *Nota para formato impreso:* En caso de requerir exámenes en PDF, este es el paso donde se debe modificar el archivo `master_template.tex` para integrar la identidad gráfica e institucional correspondiente.
+* En caso de requerir exámenes en PDF, este es el paso donde se debe modificar el archivo `master_template.tex` para integrar la identidad gráfica e institucional correspondiente. También es posible editar los archivo tex de cada ejercicio o los exámenes individuales para personalizar el diseño de cada pregunta.
 
 ### 4. Compilación y despliegue multiplataforma
 Ejecute el script configurado en el paso anterior para compilar las evaluaciones. Las salidas disponibles son:
 * **HTML (`exams2html`):** Permite la previsualización local para verificar la correcta renderización de fórmulas, imágenes y resultados.
 * **PDF (`exams2pdf`):** Genera archivos listos para impresión en aplicaciones presenciales, produciendo simultáneamente el cuadernillo del estudiante y la clave de respuestas automatizada.
 * **Canvas LMS (`exams2canvas`):** Construye un paquete comprimido (`.zip`) bajo el estándar QTI 1.2. Esta configuración utiliza el parámetro `pandoc-mathml` para garantizar la compatibilidad matemática en el navegador y está listo para ser importado directamente a la plataforma.
+
+Nota: Los exámenes en HTML, PDF y Canvas generados con este flujo de trabajo se encuentran en el directorio `Exam Control Estadístico`*.
 
 ## Contribuciones y referencias
 Este proyecto ha sido desarrollado como una innovación tecnológica para optimizar los tiempos de diseño de los educadores en disciplinas de Ciencia, Tecnología, Ingeniería y Matemáticas (STEM). Se invita a la comunidad académica a clonar el repositorio, proponer mejoras institucionales (Pull Requests) y adaptar la metodología a sus respectivos entornos educativos.

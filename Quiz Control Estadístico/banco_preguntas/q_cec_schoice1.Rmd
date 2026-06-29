@@ -1,0 +1,31 @@
+```{r data generation, echo = FALSE, results = "hide"}
+center <- sample(100:120,1)
+UCL <- center + sample(8:15,1)
+LCL <- center - sample(8:15,1)
+point <- UCL + sample(1:4,1)
+```
+Question
+========
+
+A Shewhart control chart has center line `r center`, UCL = `r UCL` and LCL = `r LCL`. A new sample statistic is `r point`.
+
+What is the best conclusion?
+
+Answerlist
+----------
+
+* The process is out of statistical control.
+* The process is centered and capable.
+* The process variability has decreased.
+* No action is needed; the point is within limits.
+
+Solution
+========
+
+The plotted point exceeds the UCL, indicating a special cause and loss of statistical control.
+
+Meta-information
+================
+extype: schoice
+exsolution: 1000
+exshuffle: 4

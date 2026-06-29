@@ -1,0 +1,23 @@
+```{r data generation, echo = FALSE, results = "hide"}
+USL <- sample(seq(100,130,5),1)
+LSL <- USL - sample(c(20,24,30),1)
+sigma <- sample(seq(2,5,0.5),1)
+Cp <- round((USL-LSL)/(6*sigma),3)
+```
+Question
+========
+
+A process has specification limits LSL = `r LSL` and USL = `r USL`. The estimated process standard deviation is $\sigma=`r sigma`$.
+
+Calculate the potential capability index $C_p$.
+
+Solution
+========
+
+$C_p=(USL-LSL)/(6\sigma)=`r Cp`$.
+
+Meta-information
+================
+extype: num
+exsolution: `r Cp`
+extol: 0.01
