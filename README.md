@@ -12,12 +12,14 @@ Este repositorio proporciona una metodología integral y plantillas estructurada
 El flujo de trabajo para la generación de evaluaciones requiere seguir los siguientes cuatro pasos metodológicos:
 
 ### 1. Preparación del entorno de trabajo
-1. Descargue el directorio denominado `Mi_DGP_Quiz` disponible en este repositorio por medio de la [liga de descarga](https://download-directory.github.io/). En la página de descarga copie la dirección del directorio Mi_DGP_Quiz: https://github.com/ivanps/R-Exams-AI/tree/main/Mi_DGP_Quiz. 
-2. Copie dicho directorio en la ubicación local destinada para la gestión de sus evaluaciones y configúrelo como su Directorio de Trabajo (*Working Directory*) dentro de RStudio.
+A. Descargue el directorio denominado `Mi_DGP_Quiz` disponible en este repositorio por medio de la [liga de descarga](https://download-directory.github.io/). En la página de descarga copie la dirección del directorio Mi_DGP_Quiz: https://github.com/ivanps/R-Exams-AI/tree/main/Mi_DGP_Quiz. 
+B. Copie dicho directorio en la ubicación local destinada para la gestión de sus evaluaciones y configúrelo como su Directorio de Trabajo (*Working Directory*) dentro de RStudio.
+
+*Nota: Como ejemplo en este repositorio se cambió el nombre de `Mi_DGP_Quiz` a `Quiz Control Estadístico`.*
 
 ### 2. Generación de ejercicios asistida por IA
 En lugar de programar los Procesos de Generación de Datos (DGP) manualmente, se emplean modelos de lenguaje para estructurar la lógica matemática y las variables aleatorias. En el directorio `Mi_DGP_Quiz\template_preguntas` se encuentra un archivo de ejemplo para preguntas de opción múltiple y de respuesta numérica. 
-* Modifique el siguiente prompt de IA para adaptarlo a su problema o temática específica:
+A. Modifique el siguiente prompt de IA para adaptarlo a su problema o temática específica:
 ```text
 Actúa como experto en Diseño Instruccional STEM y programador avanzado en el paquete R/exams desarrollado por Achim Zeileis. 
 Utiliza los archivos adjuntos q_num.Rmd y q_schoice.Rmd como plantillas obligatorias. 
@@ -27,23 +29,21 @@ Dos ejercicios deben ser de respuesta numérica (extype: num) y tres de opción 
 Respeta estrictamente la estructura, formato, sintaxis y estilo de los archivos de referencia. 
 Entrega los resultados como 5 archivos .Rmd descargables, uno por ejercicio.
 ```
-* Ejecute el prompt en un modelo de lenguaje generativo (como ChatGPT) para obtener los archivos .Rmd que contienen el ejercicio, el código R y el formato RMarkdown.
-* Guarde los archivos `.Rmd` dentro de su directorio `Mi_DGP_Quiz\banco_preguntas`.
+B. Ejecute el prompt en un modelo de lenguaje generativo (como ChatGPT) para obtener los archivos .Rmd que contienen el ejercicio, el código R y el formato RMarkdown.
+C. Guarde los archivos `.Rmd` dentro de su directorio `Mi_DGP_Quiz\banco_preguntas`.
 
 *Nota: Los ejercicios generados con este prompt en ChatGPT se guardaron en el directorio `Quiz Control Estadístico\banco_preguntas`.*
 
 ### 3. Configuración de la evaluación
-1. Inicie la aplicación RStudio.
-2. Abra el script de configuración de R correspondiente al formato de salida deseado (Canvas, PDF o HTML) y modifique los siguientes parámetros:
-* Especifique el número de copias o versiones únicas requeridas.
-* Borre los archivos `.Rmd` que no desee incluir en la evaluación. Recuerde que el script inclye automáticamente todos los archivos `.Rmd` presentes en el directorio `banco_preguntas`.
-* En caso de requerir exámenes en PDF, este es el paso donde se debe modificar el archivo `master_template.tex` para integrar la identidad gráfica e institucional correspondiente. También es posible editar los archivo tex de cada ejercicio o los exámenes individuales para personalizar el diseño de cada pregunta.
+A. Inicie la aplicación RStudio.
+B. Abra el script de configuración de R correspondiente al formato de salida deseado y especifique el número de copias requeridas.
+    * **HTML (`exams2html`):** Permite la previsualización local para verificar la correcta renderización de fórmulas, imágenes y resultados.
+    * **Canvas LMS (`exams2canvas`):** Construye un paquete comprimido (`.zip`) bajo el estándar QTI 1.2. Esta configuración utiliza el parámetro `pandoc-mathml` para garantizar la compatibilidad matemática en el navegador y está listo para ser importado directamente a la plataforma.
+    * **PDF (`exams2pdf`):** Genera archivos listos para impresión en aplicaciones presenciales, produciendo simultáneamente el cuadernillo del estudiante y la clave de respuestas automatizada. Puedes modificar el archivo `master_template.tex` para integrar la identidad gráfica e institucional correspondiente. También es posible editar los archivo tex de cada ejercicio o los exámenes individuales para personalizar el diseño de cada pregunta.
 
 ### 4. Compilación y despliegue multiplataforma
-Ejecute el script configurado en el paso anterior para compilar las evaluaciones. Las salidas disponibles son:
-* **HTML (`exams2html`):** Permite la previsualización local para verificar la correcta renderización de fórmulas, imágenes y resultados.
-* **PDF (`exams2pdf`):** Genera archivos listos para impresión en aplicaciones presenciales, produciendo simultáneamente el cuadernillo del estudiante y la clave de respuestas automatizada.
-* **Canvas LMS (`exams2canvas`):** Construye un paquete comprimido (`.zip`) bajo el estándar QTI 1.2. Esta configuración utiliza el parámetro `pandoc-mathml` para garantizar la compatibilidad matemática en el navegador y está listo para ser importado directamente a la plataforma.
+A. Ejecute el script configurado en el paso anterior para compilar las evaluaciones. Las salidas disponibles son:
+
 
 Nota: Los exámenes en HTML, PDF y Canvas generados con este flujo de trabajo se encuentran en el directorio `Exam Control Estadístico`*.
 
